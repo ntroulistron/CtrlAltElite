@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>EliteZombies</title>
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16x16.png">
+    <link rel="manifest" href="icons/site.webmanifest">
+    <link rel="mask-icon" href="icons/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="icons/favicon.ico">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-config" content="icons/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Rubik+Gemstones&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet"/>
+</head>
+<body>
+    <section class="hero">
+        <div class="main-width">
+            <header id="main-header" style="position: fixed;">
+                <div class="logo">
+                    <h2><a href="#" onclick="refreshPage()">EliteGames</a></h2>
+                </div>
+
+                <nav>
+                    <input type="checkbox" id="check">
+                    <label for="check" class="checkbtn">
+                        <i class="fas fa-bars"></i>
+                    </label>
+                    <ul>
+                        <li class="active"><a href="" onclick="scrolltoTop()">Home</a></li>
+                        <li><a href="#game-info">Game</a></li>
+                        <li><a href="#team-info">Our Team</a></li>
+                        <li><a href="#contact-info">Contact Us</a></li>
+                        <li id="download-btn"class="btn"><a href="https://mega.nz/file/FnZTgSQK#VCwsznsrW-85lqgJb9glOqp7t3Hsz5vUShoBB18n1yI">Download</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <div class="content">
+                <div class="main-text">
+                    <h6>#1 Trending</h6>
+                    <h3>CtrlAltElite</h3>
+                    <h1>EliteZombies</h1>
+                    <p>Discover the absolute game of EliteZombies.</p>
+                    <a href="https://mega.nz/file/FnZTgSQK#VCwsznsrW-85lqgJb9glOqp7t3Hsz5vUShoBB18n1yI">Play Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="game-info" id="game-info">
+        <div class="main-width">
+            <h2>Game</h2>
+            <div class="game-description">
+                <h3>About EliteZombies</h3>
+                <p>In a world overrun by the undead, EliteZombies offers an unparalleled adventure of survival and strategy. Navigate through a post-apocalyptic city and use your wits and weapons to fend off the relentless zombie hordes. You will born in an area full of Zombies and you have to face and win every obstacle in order to gather points and escape!</p>
+                <h3>Gameplay Mechanics</h3>
+                <p>Control your survivor with intuitive mechanics, mastering combat through a combination of keyboard and mouse actions. From stealth to gunplay,from facing one zombies to facing multiple, your strategy will determine your fate.</p>
+                <h3>Programming Langueges and Engines used.</h3>
+                <p>This website and its accompanying game are crafted using a blend of modern web technologies and robust game development engines. The front-end of the website utilizes HTML, CSS, and JavaScript to ensure a responsive and dynamic user experience. For the game development aspect, we have employed Unity, a powerful game development platform known for its versatility and efficiency in building high-quality 2D and 3D games. Together, these technologies provide a seamless integration of web functionality and interactive gaming experiences.</p>
+            </div>
+        </div>
+    </section>
+    <section class="team-info" id="team-info">
+        <div class="main-width">
+            <h2>Our Team</h2>
+            <div class="team-slider">
+                <div class="team-member" id="member1">
+                    <img src="icons/icon1.png" alt="Aleksandros" class="team-avatar">
+                    <h3>Aleksandros Bilelli</h3>
+                    <p class="role">Web Developer & Designer</p>
+                    <p class="bio">Aleksandros Bilelli is a dynamic and innovative Web Developer and Designer currently in his second year at the University of Derby. With a natural flair for creating visually appealing and user-friendly websites, he has already made significant strides in the digital realm. His academic journey at the University of Derby is not only shaping his technical abilities but also enriching his understanding of the theoretical underpinnings of computing and design, allowing him to apply best practices and contemporary trends to his projects.</p>
+                </div>
+                <div class="team-member" id="member2">
+                    <img src="icons/icon2.png" alt="Orfeas" class="team-avatar">
+                    <h3>Orfeas Kouroumlis</h3>
+                    <p class="role">Game Developer</p>
+                    <p class="bio">Orfeas is an imaginative and skilled game developer, currently refining his talents in his second year at the University of Derby. With an enthusiasm that spans both the technical intricacies and creative storytelling of game development, Orfeas blends a robust foundation in programming with an artist's touch to forge gaming experiences that captivate and immerse players.</p>
+                </div>
+                <div class="team-member" id="member3">
+                    <img src="icons/icon3.png" alt="Sathis" class="team-avatar">
+                    <h3>Stathis Birtas</h3>
+                    <p class="role">Project Manager</p>
+                    <p class="bio">Stathis is a methodical and visionary project manager in his second year at the University of Derby, where his leadership skills are as much on display as his technical acumen. With an impressive ability to coordinate complex projects and lead diverse teams, Stathis excels in orchestrating the many facets of digital project management.</p>
+                </div>
+                <div class="team-member" id="member4">
+                    <img src="icons/icon4.webp" alt="Armando" class="team-avatar">
+                    <h3>Armando Hyka</h3>
+                    <p class="role">Document Manager</p>
+                    <p class="bio">Armando is a meticulous and organized Document Manager, currently in his second year at the University of Derby, where his proficiency in managing information stands out. With a keen understanding of the critical role documentation plays in the success of any project, Armando ensures that every file, every record, and every piece of data is accurately maintained and easily accessible.</p>
+                </div>
+            </div>
+            <button class="prev" onclick="slide(-1)">❮</button>
+            <button class="next" onclick="slide(1)">❯</button>
+        </div>
+    </section>
+    <section class="contact-info" id="contact-info">
+        <div class="main-width">
+            <h2>Contact Us</h2>
+            <div class="contact-description">
+                <form id="contactForm" action="email.php" method="POST">
+                    <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+                    <label for="country">Country:</label>
+                    <select id="country" name="country">
+                        <option value="">Please select a country</option>
+                        <option value="USA">United States</option>
+                        <option value="CAN">Canada</option>
+                        <option value="UK">United Kingdom</option>
+                        <option value="AUS">Australia</option>
+                        <option value="Greece">Greece</option>
+                        <option value="IND">India</option>
+                        <option value="GER">Germany</option>
+                        <option value="FRA">France</option>
+                        <option value="JPN">Japan</option>
+                    </select>
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="main-width">
+            <div class="footer-content">
+                <div class="footer-section about">
+                    <h2>About EliteZombies</h2>
+                    <p>EliteZombies is the ultimate zombie survival game. Navigate through a post-apocalyptic world, and fend off hordes of the undead. Join us in this thrilling adventure!</p>
+                </div>
+                <div class="footer-section links">
+                    <h2>Quick Links</h2>
+                    <ul>
+                        <li><a href="#" onclick="scrolltoTop()">Home</a></li>
+                        <li><a href="#game-info">Game</a></li>
+                        <li><a href="#team-info">Our Team</a></li>
+                        <li><a href="#contact-info">Contact Us</a></li>
+                        <li><a href="#">Download</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section contact">
+                    <h2>Contact Us</h2>
+                    <ul>
+                        <li><i class="fa fa-map-marker-alt"></i> 123 Zombie St, Apocalypse City, ZB 12345</li>
+                        <li><i class="fa fa-phone-alt"></i> +1 (555) 123-4567</li>
+                        <li><i class="fa fa-envelope"></i> info@elitezombies.com</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                &copy; 2024 EliteZombies | Designed by CtrlAltElite Team
+            </div>
+        </div>
+    </footer>
+    <script src="refreshPage.js"></script>
+    <script src="scroll.js"></script>
+    <script src="scrolltoTop.js"></script>
+    <script src="slideMembers.js"></script>
+</body>
+</html>
